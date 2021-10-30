@@ -36,8 +36,8 @@ jobs:
         include:
           - os: windows-latest
             TARGET: windows
-            CMD_BUILD: pyinstaller -F -n generate-password main.py
-            OUT_FILE_NAME: generate-password.exe
+            CMD_BUILD: pyinstaller -F -n simple_aes main.py
+            OUT_FILE_NAME: simple_aes.exe
             ASSET_MIME: application/vnd.microsoft.portable-executable
 
     steps:
