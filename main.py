@@ -9,9 +9,6 @@ ARRAY_SYMBOLS = [
     'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'o', 'P', 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'Z', 'X', 'C', 'V', 'B', 'N', 'm',
     '!', '?'
 ]
-
-# Получаем кол-во символов
-
 count_symbols = 8
 
 def rand_symbols():
